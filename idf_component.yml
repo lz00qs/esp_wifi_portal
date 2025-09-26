@@ -1,0 +1,4 @@
+version: "0.0.1"
+description: "ESP-IDF component that provides a lightweight web portal for Wi-Fi provisioning, allowing users to scan networks, enter credentials, and connect IoT devices without hardcoding SSIDs or passwords."
+url: "https://github.com/lz00qs/esp_wifi_portal"
+license: "Apache-2.0"
