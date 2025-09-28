@@ -11,6 +11,16 @@ ESP-IDF component that provides a lightweight web portal for Wi-Fi provisioning,
 ![Portal Screenshot](pics/portal_screenshot.jpg)
 
 ## Usage
+
+Add this component to your project by adding this below to your `main/idf_component.yml` file.
+
+```yaml
+dependencies:
+  esp_wifi_portal:
+    git: https://github.com/lz00qs/esp_wifi_portal.git
+```
+
+Example code:
 ```c
 void app_main(void)
 {
